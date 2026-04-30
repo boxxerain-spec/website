@@ -321,7 +321,7 @@ export default function PricingPage() {
                         <div className="space-y-6 w-full mb-12">
                             <div className="pb-4 border-b border-white/10">
                                 <p className="text-white/60 text-sm font-medium mb-2 leading-relaxed">
-                                    Train Directly with coach Jeeth Sanghavi and unlock your full potential
+                                    Train Directly with coach Jeeth Sanghavvi and unlock your full potential
                                 </p>
 
                                 <div className="flex flex-col items-start mt-6 gap-2">
@@ -365,7 +365,7 @@ export default function PricingPage() {
                         Transformation Expert
                     </span>
                     <h2 className="font-anton text-4xl md:text-5xl lg:text-6xl uppercase tracking-tighter mb-6">
-                        Book a consultation with <span className="text-accent">Jeeth Sanghavi</span>
+                        Book a consultation with <span className="text-accent">Jeeth Sanghavvi</span>
                     </h2>
                     <div className="w-24 h-[2px] bg-accent mx-auto mb-8" />
                     <p className="text-white/70 text-base md:text-lg font-medium leading-relaxed mb-10">

@@ -112,7 +112,7 @@ export default function ArticlesPage() {
                                 <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-white/5 shadow-2xl">
                                     <Image
                                         src="/Untitled design (1)-Photoroom.png"
-                                        alt="Coach Jeeth Sanghavi portrait"
+                                        alt="Coach Jeeth Sanghavvi portrait"
                                         fill
                                         className="object-cover object-center transition-transform duration-[3s] hover:scale-105"
                                         sizes="(max-width: 768px) 100vw, 50vw"
@@ -120,8 +120,8 @@ export default function ArticlesPage() {
                                 </div>
                                 <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-white/5 shadow-2xl">
                                     <Image
-                                        src="/WhatsApp Image 2026-05-01 at 12.51.44 AM.jpeg"
-                                        alt="Coach Jeeth Sanghavi with athletes at Boxx Era"
+                                        src="/WhatsApp Image 2026-05-01 at 12.51.44 AM (1).jpeg"
+                                        alt="Coach Jeeth Sanghavvi with athletes at Boxx Era"
                                         fill
                                         className="object-cover object-center transition-transform duration-[3s] hover:scale-105"
                                         sizes="(max-width: 768px) 100vw, 50vw"
@@ -130,7 +130,7 @@ export default function ArticlesPage() {
                             </div>
                             <div className="absolute bottom-4 left-4 md:bottom-6 md:left-6">
                                 <span className="bg-accent text-black text-[9px] md:text-[10px] font-black uppercase tracking-[0.4em] px-4 py-2">
-                                    Meet Your Coach: Jeeth Sanghavi
+                                    Meet Your Coach: Jeeth Sanghavvi
                                 </span>
                             </div>
                         </motion.div>
@@ -148,7 +148,7 @@ export default function ArticlesPage() {
                                 </span>
 
                                 <h2 className="text-4xl md:text-6xl font-anton uppercase leading-[0.9] tracking-tighter text-white mb-8">
-                                    Meet Coach <span className="text-accent">Jeeth Sanghavi</span>
+                                    Meet Coach <span className="text-accent">Jeeth Sanghavvi</span>
                                 </h2>
 
                                 <div className="w-16 h-[2px] bg-accent/30 mb-12" />
@@ -163,29 +163,29 @@ export default function ArticlesPage() {
                                     </p>
 
                                     <p>
-                                        Coach Jeeth built Boxx Era from the ground up by <span className="text-white font-semibold">Coach Jeeth Sanghavi</span>, a name that has come to define <span className="text-accent font-semibold">transformation at the highest level</span>.
+                                        Coach Jeeth built Boxx Era from the ground up by <span className="text-white font-semibold">Coach Jeeth Sanghavvi</span>, a name that has come to define <span className="text-accent font-semibold">transformation at the highest level</span>.
                                     </p>
 
                                     <p>
-                                        For over <span className="text-accent font-semibold">18 years</span>, Coach Jeeth Sanghavi hasn&apos;t just trained bodies, she&apos;s rebuilt them, rewired mindsets, and pushed people past limits they didn&apos;t know existed. Her work is not about quick fixes or surface-level fitness. It&apos;s about <span className="text-white font-semibold border-b border-accent/40">complete, undeniable transformation</span> physical, mental, and emotional.
+                                        For over <span className="text-accent font-semibold">18 years</span>, Coach Jeeth Sanghavvi hasn&apos;t just trained bodies, she&apos;s rebuilt them, rewired mindsets, and pushed people past limits they didn&apos;t know existed. Her work is not about quick fixes or surface-level fitness. It&apos;s about <span className="text-white font-semibold border-b border-accent/40">complete, undeniable transformation</span> physical, mental, and emotional.
                                     </p>
 
                                     <p>
-                                        A former international and national athlete in lawn tennis and boxing, and an advanced-level mountaineer, Coach Jeeth Sanghavi brings a <span className="text-accent font-semibold">rare kind of intensity</span> to everything she builds. The kind that comes from lived discipline, not theoretical.
+                                        A former international and national athlete in lawn tennis and boxing, and an advanced-level mountaineer, Coach Jeeth Sanghavvi brings a <span className="text-accent font-semibold">rare kind of intensity</span> to everything she builds. The kind that comes from lived discipline, not theoretical.
                                     </p>
 
                                     <p>
-                                        Her credibility doesn&apos;t come from titles alone but they exist in the countless people she has transformed. From being honoured with the <span className="text-accent font-semibold">Rashtriya Shiksha Ratan Award</span> to preparing <span className="text-white font-semibold">Priyanka Chopra</span> for her role in <em>Mary Kom</em>, Coach Jeeth Sanghavi has consistently operated at a level where <span className="text-white font-semibold">results are non-negotiable</span>.
+                                        Her credibility doesn&apos;t come from titles alone but they exist in the countless people she has transformed. From being honoured with the <span className="text-accent font-semibold">Rashtriya Shiksha Ratan Award</span> to preparing <span className="text-white font-semibold">Priyanka Chopra</span> for her role in <em>Mary Kom</em>, Coach Jeeth Sanghavvi has consistently operated at a level where <span className="text-white font-semibold">results are non-negotiable</span>.
                                     </p>
 
                                     <p>
-                                        This is a <span className="text-accent font-semibold">high-performance environment</span> engineered by Coach Jeeth Sanghavi for those who are looking for a real change.
+                                        This is a <span className="text-accent font-semibold">high-performance environment</span> engineered by Coach Jeeth Sanghavvi for those who are looking for a real change.
                                         <br />
                                         <span className="text-white font-semibold">If you walk in, you show up fully.</span>
                                         <br />
                                         <span className="text-white font-semibold">If you listen, you evolve.</span>
                                         <br />
-                                        <span className="text-accent font-semibold">Train under Coach Jeeth Sanghavi.</span>
+                                        <span className="text-accent font-semibold">Train under Coach Jeeth Sanghavvi.</span>
                                         <br />
                                         <span className="text-white font-semibold border-b border-accent/40">And become unrecognizable in the best way possible.</span>
                                     </p>

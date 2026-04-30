@@ -25,7 +25,7 @@ const slides = [
                 DREAM BODY SERIES –<br />COMMIT TO EVOLVE
             </>
         ),
-        description: "by – Jeeth Sanghavi",
+        description: "by – Jeeth Sanghavvi",
         primaryCTA: "ENROLL NOW",
         primaryLink: "/pricing",
         secondaryCTA: "EXPLORE TRAINING",
