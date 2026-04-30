@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Anton } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import LeadCaptureModal from "@/components/LeadCaptureModal";
 import { TransitionProvider } from "@/components/transitions/TransitionProvider";
 import "./globals.css";
 
@@ -38,6 +39,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} ${anton.variable} antialiased`}>
         <TransitionProvider>
           <Navbar />
+          <LeadCaptureModal />
           {children}
         </TransitionProvider>
       </body>

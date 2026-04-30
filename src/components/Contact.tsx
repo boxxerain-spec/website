@@ -77,7 +77,7 @@ export default function Contact() {
                                 <div>
                                     <h4 className="text-white font-bold uppercase tracking-widest text-xs mb-2">Connect</h4>
                                     <p className="text-white/40 uppercase tracking-tighter text-[10px]">
-                                        +91 72908 20211
+                                        +91 83760 66298
                                     </p>
                                 </div>
                             </div>

@@ -152,7 +152,7 @@ export default function PricingPage() {
                         PERSONAL <span className="text-accent">TRAINING</span>
                     </motion.h2>
                     <motion.p variants={fadeIn} className="text-white/50 text-sm uppercase tracking-[0.2em] mb-4">
-                        Achieve ur personal goals Online/offline
+                        Achieve Your personal goals Online/offline
                     </motion.p>
                     <motion.div variants={fadeIn} className="w-24 h-[2px] bg-accent mx-auto" />
                 </motion.div>
@@ -249,7 +249,7 @@ export default function PricingPage() {
                             </div>
 
                             <h3 className="font-anton text-3xl uppercase tracking-tighter">
-                                Premium Package with Coach Shivani
+                                Premium Package
                             </h3>
 
                             <p className="text-[11px] text-accent font-bold uppercase tracking-[0.2em] mt-2">
@@ -310,7 +310,7 @@ export default function PricingPage() {
                             <Target className="text-accent mb-4" size={32} />
 
                             <h3 className="font-anton text-2xl md:text-3xl tracking-tight leading-tight">
-                                Personal Training with  Coach Jeeth Sanghavi
+                                Personal Training with Transformation Expert
                             </h3>
 
                             <p className="text-[11px] text-accent font-bold uppercase tracking-[0.2em] mt-2">

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { MoveRight, ArrowUpRight } from "lucide-react";
+import { MoveRight, ArrowUpRight, Instagram } from "lucide-react";
 import Footer from "@/components/Footer";
 import { articles, Article } from "@/data/articles";
 import Button from "@/components/Button";
@@ -123,53 +123,123 @@ export default function ArticlesPage() {
                             </div>
                         </motion.div>
 
-                        <motion.div
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.8 }}
-                            className="max-w-3xl"
-                        >
-                            <span className="text-accent text-[10px] md:text-xs font-black uppercase tracking-[0.5em] mb-6 block">
-                                COACH SPOTLIGHT
-                            </span>
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+                            <motion.div
+                                initial={{ opacity: 0, x: -20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.8 }}
+                                className="lg:col-span-8"
+                            >
+                                <span className="text-accent text-[10px] md:text-xs font-black uppercase tracking-[0.5em] mb-6 block">
+                                    COACH SPOTLIGHT
+                                </span>
 
-                            <h2 className="text-4xl md:text-6xl font-anton uppercase leading-[0.9] tracking-tighter text-white mb-8">
-                                Meet Your Coach: <span className="text-accent">Jeeth Sanghavi</span>
-                            </h2>
+                                <h2 className="text-4xl md:text-6xl font-anton uppercase leading-[0.9] tracking-tighter text-white mb-8">
+                                    Meet Coach <span className="text-accent">Jeeth Sanghavi</span>
+                                </h2>
 
-                            <div className="w-16 h-[2px] bg-accent/30 mb-12" />
+                                <div className="w-16 h-[2px] bg-accent/30 mb-12" />
 
-                            <div className="space-y-8 text-white/70 text-lg leading-relaxed font-light">
-                                <p>
-                                    Welcome to the heart of Boxx Era, where transformation begins! Meet <span className="text-white font-bold">Jeeth Sanghavi</span>, the trailblazing Founder and Transformational Expert at our premier fitness studio in Delhi & Gurugram.
-                                </p>
+                                <div className="space-y-8 text-white/70 text-lg leading-relaxed font-light">
+                                    <p className="text-white/80 font-medium">
+                                        <span className="text-accent font-semibold">Life Coach</span>, <span className="text-accent font-semibold">Transformation Expert</span>, Celebrity Coach &amp; the Force behind Boxx Era
+                                    </p>
 
-                                <p>
-                                    With over 15 years of dedicated experience in the fitness industry, Jeeth has made it her mission to empower individuals to elevate their physical, mental, and emotional well-being through holistic, science-backed methods. As a proud recipient of the <span className="text-accent font-semibold">Rashtriya Shiksha Ratan Award</span>, her credentials speak volumes. A former international and national athlete, Jeeth has excelled in both lawn tennis and boxing, and even holds the title of advanced-level mountaineer.
-                                </p>
+                                    <p>
+                                        At the core of Boxx Era stands a philosophy shaped by her - where transformation is <span className="text-white font-semibold">intentional, disciplined, and deeply personal</span>, rooted in a <span className="text-accent font-semibold italic">modern Gurukul ideology</span> of mentorship, learning, and mastery. A coach&apos;s coach in the truest sense.
+                                    </p>
 
-                                <p>
-                                    Jeeth&apos;s expertise is wide-ranging, from body transformation and rehabilitation to sports training, making her a trusted name among fitness enthusiasts. One of her most significant accomplishments includes training Bollywood superstar <span className="text-white font-bold">Priyanka Chopra</span> for her role in the critically acclaimed film <em>Mary Kom</em>, where she expertly guided the actress to embody the grit and determination of an Olympic boxer.
-                                </p>
+                                    <p>
+                                        Coach Jeeth built Boxx Era from the ground up by <span className="text-white font-semibold">Coach Jeeth Sanghavi</span>, a name that has come to define <span className="text-accent font-semibold">transformation at the highest level</span>.
+                                    </p>
 
-                                <p>
-                                    At the heart of Boxx Era is a vibrant community committed to holistic transformation. Jeeth has cultivated an environment where personalized training, rehabilitation/prehabilitation programs, transformation coaching, and nutritional guidance come together to redefine the fitness experience in India.
-                                </p>
+                                    <p>
+                                        For over <span className="text-accent font-semibold">18 years</span>, Coach Jeeth Sanghavi hasn&apos;t just trained bodies, she&apos;s rebuilt them, rewired mindsets, and pushed people past limits they didn&apos;t know existed. Her work is not about quick fixes or surface-level fitness. It&apos;s about <span className="text-white font-semibold border-b border-accent/40">complete, undeniable transformation</span> physical, mental, and emotional.
+                                    </p>
 
-                                <p>
-                                    Join us at Boxx Era and embark on your transformative journey with Coach Jeeth as your guide—where every step takes you closer to your ultimate self!
-                                </p>
+                                    <p>
+                                        A former international and national athlete in lawn tennis and boxing, and an advanced-level mountaineer, Coach Jeeth Sanghavi brings a <span className="text-accent font-semibold">rare kind of intensity</span> to everything she builds. The kind that comes from lived discipline, not theoretical.
+                                    </p>
 
-                                <div className="pt-10">
-                                    <Button
-                                        text="START YOUR TRANSFORMATION WITH COACH JEETH"
-                                        href="/#contact"
-                                        className="w-full sm:w-auto px-12 py-7"
-                                    />
+                                    <p>
+                                        Her credibility doesn&apos;t come from titles alone but they exist in the countless people she has transformed. From being honoured with the <span className="text-accent font-semibold">Rashtriya Shiksha Ratan Award</span> to preparing <span className="text-white font-semibold">Priyanka Chopra</span> for her role in <em>Mary Kom</em>, Coach Jeeth Sanghavi has consistently operated at a level where <span className="text-white font-semibold">results are non-negotiable</span>.
+                                    </p>
+
+                                    <p>
+                                        This is a <span className="text-accent font-semibold">high-performance environment</span> engineered by Coach Jeeth Sanghavi for those who are looking for a real change.
+                                        <br />
+                                        <span className="text-white font-semibold">If you walk in, you show up fully.</span>
+                                        <br />
+                                        <span className="text-white font-semibold">If you listen, you evolve.</span>
+                                        <br />
+                                        <span className="text-accent font-semibold">Train under Coach Jeeth Sanghavi.</span>
+                                        <br />
+                                        <span className="text-white font-semibold border-b border-accent/40">And become unrecognizable in the best way possible.</span>
+                                    </p>
+
+                                    <div className="pt-10">
+                                        <Button
+                                            text="START YOUR TRANSFORMATION WITH COACH JEETH"
+                                            href="/#contact"
+                                            className="w-full sm:w-auto px-12 py-7"
+                                        />
+                                        <a
+                                            href="https://www.instagram.com/jeethsanghavi?igsh=aHUyYTdrNDF0Y3Vp"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="mt-5 inline-flex items-center gap-2 text-accent hover:text-white transition-colors text-[11px] font-black uppercase tracking-[0.2em]"
+                                        >
+                                            <Instagram size={16} />
+                                            Follow Coach Jeeth
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                        </motion.div>
+                            </motion.div>
+
+                            <motion.div
+                                initial={{ opacity: 0, x: 20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.8, delay: 0.2 }}
+                                className="lg:col-span-4"
+                            >
+                                <div className="sticky top-40 space-y-12">
+                                    <div className="p-8 border border-white/5 bg-zinc-950/50 backdrop-blur-sm rounded-sm">
+                                        <h4 className="text-accent text-[10px] font-black uppercase tracking-[0.3em] mb-8 border-b border-accent/20 pb-4">
+                                            Why This Philosophy?
+                                        </h4>
+                                        <div className="space-y-5 text-white/70 text-sm leading-relaxed">
+                                            <p className="text-white/90 font-medium">
+                                                This approach is deeply personal to her.
+                                            </p>
+                                            <p>
+                                                During her own years as a professional athlete, she spent a long time searching for the right coach someone who could truly understand, guide, and build her with intention. That experience wasn&apos;t easy. The lack of the right guidance meant navigating challenges alone, learning through setbacks, and pushing forward without the structure every athlete deserves.
+                                            </p>
+                                            <p className="text-accent font-semibold">That journey shaped everything.</p>
+                                            <p className="text-white/90 font-medium">It&apos;s why she chose to build differently.</p>
+                                            <p className="text-white/90 font-medium">To be the coach she once needed.</p>
+                                            <p>
+                                                At Boxx Era, this translates into a coaching methodology that is present, precise, and invested where every individual is seen, guided, and developed with intent.
+                                            </p>
+                                            <p className="text-white font-semibold">
+                                                Because the right coaching doesn&apos;t just change performance.<br />
+                                                It changes the entire trajectory.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div className="relative aspect-square w-full grayscale opacity-20 overflow-hidden rounded-sm group">
+                                        <Image
+                                            src="/Boxx Era-01 (1).png"
+                                            alt="Boxx Era Seal"
+                                            fill
+                                            className="object-contain p-12 group-hover:scale-110 transition-transform duration-1000 invert"
+                                        />
+                                    </div>
+                                </div>
+                            </motion.div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -187,10 +257,10 @@ export default function ArticlesPage() {
                             className="relative aspect-[16/10] md:aspect-[21/11] w-full overflow-hidden rounded-sm mb-16 border border-white/5 shadow-2xl"
                         >
                             <Image
-                                src="/WhatsApp Image 2026-03-23 at 6.04.12 PM.jpeg"
+                                src="/WhatsApp Image 2026-03-23 at 6.04.12 PM (1).jpeg"
                                 alt="Coach Shivani Dahiya"
                                 fill
-                                className="object-cover object-[center_25%] transition-transform duration-[3s] hover:scale-105"
+                                className="object-cover object-[center_5%] transition-transform duration-[3s] hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
                             <div className="absolute bottom-6 right-6 md:bottom-10 md:right-10">
@@ -214,47 +284,34 @@ export default function ArticlesPage() {
                                 </span>
 
                                 <h2 className="text-4xl md:text-7xl font-anton uppercase leading-[0.9] tracking-tighter text-white mb-6">
-                                    Meet Coach Shivani Dahiya — <br />
-                                    <span className="text-accent">The Powerhouse Behind Boxx Era</span>
+                                    Meet Coach Shivani
                                 </h2>
 
-                                <p className="text-lg md:text-xl text-white/60 font-medium uppercase tracking-[0.1em] mb-12">
-                                    Professional Boxer • Results-Driven Performance • Elite Transformation Coach
+                                <p className="text-lg md:text-xl text-white/60 font-medium mb-12">
+                                    Coach Shivani is a professional boxer who has competed at both national and international levels, bringing real competitive experience into her role at Boxx Era as a founding team member.
                                 </p>
 
                                 <div className="w-16 h-[2px] bg-accent/30 mb-16" />
 
                                 <div className="space-y-8 text-white/70 text-lg leading-relaxed font-light">
                                     <p>
-                                        With a stellar career as an Indian professional boxer and a decorated record of victories in both national and international matches, <span className="text-white font-bold">Shivani Dahiya</span> is one of the most dynamic and results-driven coaches at Boxx Era. As a co-founder of the studio, she brings over a decade of comprehensive fitness expertise, backed by multiple certifications in various training disciplines.
+                                        With a strong foundation in high-performance sport, Coach Shivani understands what structured, effective training demands. Her approach is rooted in technical accuracy, consistency, and building strength that translates beyond the studio.
                                     </p>
 
-                                    <p>
-                                        Shivani&apos;s approach to fitness transcends conventional methods. Whether you&apos;re seeking general fitness, sport-specific training, or advanced athletic development, she combines scientific rigor with innovative techniques to ensure maximum results. Her workouts are crafted with precision, a tough attitude, and an unwavering focus on performance.
-                                    </p>
-
-                                    {/* Quote Block */}
-                                    <div className="my-16 py-12 px-8 md:px-12 border-l-2 border-accent bg-white/[0.02] relative">
-                                        <p className="text-2xl md:text-4xl font-anton uppercase text-white leading-[1.1] italic tracking-tight">
-                                            &ldquo;True strength isn&apos;t just about what your body can do—it&apos;s about the discipline to show up and the resilience to never break.&rdquo;
-                                        </p>
-                                        <div className="absolute top-4 right-8 text-accent/10 font-anton text-9xl leading-none select-none">
-                                            &ldquo;
-                                        </div>
+                                    <div className="my-8 py-8 px-6 md:px-8 border-l-2 border-accent bg-white/[0.02] relative">
+                                        <p className="text-white/90 font-semibold mb-4">At Boxx Era, Coach Shivani works across:</p>
+                                        <ul className="space-y-3 text-white/80">
+                                            <li>Boxing Training</li>
+                                            <li>Strength and conditioning</li>
+                                            <li>Sport-specific training</li>
+                                        </ul>
                                     </div>
 
                                     <p>
-                                        Drawing from her world-class athletic background, Coach Shivani has developed a unique training philosophy rooted in authenticity and excellence. Her dedication to her own athletic journey fuels her passion for transforming individuals from all walks of life into true athletes. Her coaching style emphasizes pushing boundaries, inspiring discipline, and unlocking untapped potential.
-                                    </p>
-                                    <p>
-                                        At Boxx Era, Shivani&apos;s mission is clear: to empower every individual to surpass their limits and achieve their fitness goals. Whether you&apos;re a beginner or an aspiring athlete, her personalized, results-oriented training will help you unlock your true strength and resilience.
+                                        Her sessions are focused, methodical, and tailored to individual capacity whether someone is just starting out or looking to train at a higher level. She emphasizes correct movement, progressive overload, and the discipline needed to sustain results over time.
                                     </p>
 
                                     <div className="pt-10">
-                                        <p className="font-anton text-2xl uppercase tracking-tight text-white mb-12">
-                                            Join us at Boxx Era — <span className="text-accent underline decoration-1 underline-offset-8">where champions are made.</span>
-                                        </p>
-
                                         <Button
                                             text="START YOUR TRAINING WITH COACH SHIVANI"
                                             href="/#contact"
@@ -264,45 +321,7 @@ export default function ArticlesPage() {
                                 </div>
                             </motion.div>
 
-                            {/* Sidebar Info */}
-                            <motion.div
-                                initial={{ opacity: 0, x: 20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ duration: 0.8, delay: 0.2 }}
-                                className="lg:col-span-4"
-                            >
-                                <div className="sticky top-40 space-y-12">
-                                    <div className="p-8 border border-white/5 bg-zinc-950/50 backdrop-blur-sm rounded-sm">
-                                        <h4 className="text-accent text-[10px] font-black uppercase tracking-[0.3em] mb-8 border-b border-accent/20 pb-4">
-                                            Expertise & Career
-                                        </h4>
-                                        <ul className="space-y-6">
-                                            {[
-                                                "Professional Boxing Career",
-                                                "10+ Years Elite Experience",
-                                                "Multi-Certified Master Coach",
-                                                "Co-Founder & Visionary",
-                                                "Advanced Sport Conditioning"
-                                            ].map((item, i) => (
-                                                <li key={i} className="flex gap-4 items-center text-[10px] md:text-[11px] font-black uppercase tracking-[0.2em] text-white/50 group">
-                                                    <div className="w-1.5 h-1.5 rounded-full bg-accent/30 group-hover:bg-accent transition-colors" />
-                                                    {item}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-
-                                    <div className="relative aspect-square w-full grayscale opacity-20 overflow-hidden rounded-sm group">
-                                        <Image
-                                            src="/Boxx Era-01 (1).png"
-                                            alt="Boxx Era Seal"
-                                            fill
-                                            className="object-contain p-12 group-hover:scale-110 transition-transform duration-1000 invert"
-                                        />
-                                    </div>
-                                </div>
-                            </motion.div>
+                            {/* Sidebar removed as requested */}
                         </div>
                     </div>
                 </div>
