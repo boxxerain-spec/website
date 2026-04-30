@@ -106,17 +106,29 @@ export default function ArticlesPage() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 1 }}
-                            className="relative aspect-[4/3] md:aspect-[16/10] w-full overflow-hidden rounded-sm mb-16 border border-white/5 shadow-2xl"
+                            className="relative w-full mb-16"
                         >
-                            <Image
-                                src="/WhatsApp Image 2026-02-25 at 12.16.27 PM.jpeg"
-                                alt="Coach Jeeth Sanghavi - Boxing training at Boxx Era"
-                                fill
-                                className="object-cover object-center transition-transform duration-[3s] hover:scale-105"
-                                sizes="(max-width: 768px) 100vw, 1024px"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
-                            <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                                <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-white/5 shadow-2xl">
+                                    <Image
+                                        src="/Untitled design (1)-Photoroom.png"
+                                        alt="Coach Jeeth Sanghavi portrait"
+                                        fill
+                                        className="object-cover object-center transition-transform duration-[3s] hover:scale-105"
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                    />
+                                </div>
+                                <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-white/5 shadow-2xl">
+                                    <Image
+                                        src="/WhatsApp Image 2026-05-01 at 12.51.44 AM.jpeg"
+                                        alt="Coach Jeeth Sanghavi with athletes at Boxx Era"
+                                        fill
+                                        className="object-cover object-center transition-transform duration-[3s] hover:scale-105"
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                    />
+                                </div>
+                            </div>
+                            <div className="absolute bottom-4 left-4 md:bottom-6 md:left-6">
                                 <span className="bg-accent text-black text-[9px] md:text-[10px] font-black uppercase tracking-[0.4em] px-4 py-2">
                                     Meet Your Coach: Jeeth Sanghavi
                                 </span>
