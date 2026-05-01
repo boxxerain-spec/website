@@ -98,15 +98,15 @@ export default function ArticlesPage() {
             </section>
 
             {/* SECTION: MEET COACH JEETH SANGHAVI */}
-            <section className="py-24 md:py-32 bg-black border-y border-white/5 relative overflow-hidden">
-                <div className="container mx-auto px-6 relative z-10">
+            <section className="py-16 md:py-24 lg:py-32 bg-black border-y border-white/5 relative overflow-hidden">
+                <div className="container mx-auto px-4 md:px-6 relative z-10">
                     <div className="max-w-5xl mx-auto">
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 1 }}
-                            className="relative aspect-[16/7] md:aspect-[16/6] w-full overflow-hidden rounded-sm mb-16 border border-white/5 shadow-2xl"
+                            className="relative aspect-[16/10] sm:aspect-[16/8] md:aspect-[16/6] w-full overflow-hidden rounded-sm mb-10 md:mb-16 border border-white/5 shadow-2xl"
                         >
                             <Image
                                 src="/WhatsApp Image 2026-05-01 at 2.22.07 PM.jpeg"
@@ -115,14 +115,14 @@ export default function ArticlesPage() {
                                 className="object-cover object-[center_20%] transition-transform duration-[3s] hover:scale-105"
                                 sizes="(max-width: 768px) 100vw, 1024px"
                             />
-                            <div className="absolute bottom-4 left-4 md:bottom-6 md:left-6">
-                                <span className="bg-accent text-black text-[9px] md:text-[10px] font-black uppercase tracking-[0.4em] px-4 py-2">
+                            <div className="absolute bottom-3 left-3 md:bottom-6 md:left-6">
+                                <span className="bg-accent text-black text-[8px] sm:text-[9px] md:text-[10px] font-black uppercase tracking-[0.22em] sm:tracking-[0.3em] md:tracking-[0.4em] px-2.5 sm:px-3 md:px-4 py-1.5 md:py-2">
                                     Meet Your Coach: Jeeth Sanghavvi
                                 </span>
                             </div>
                         </motion.div>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 lg:gap-20">
                             <motion.div
                                 initial={{ opacity: 0, x: -20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
@@ -130,21 +130,21 @@ export default function ArticlesPage() {
                                 transition={{ duration: 0.8 }}
                                 className="lg:col-span-8"
                             >
-                                <span className="text-accent text-[10px] md:text-xs font-black uppercase tracking-[0.5em] mb-6 block">
+                                <span className="text-accent text-[9px] md:text-xs font-black uppercase tracking-[0.32em] md:tracking-[0.5em] mb-4 md:mb-6 block">
                                     COACH SPOTLIGHT
                                 </span>
 
-                                <h2 className="text-4xl md:text-7xl font-anton uppercase leading-[0.9] tracking-tighter text-white mb-6">
+                                <h2 className="text-3xl sm:text-4xl md:text-7xl font-anton uppercase leading-[0.95] md:leading-[0.9] tracking-tighter text-white mb-4 md:mb-6">
                                     Meet Coach <span className="text-accent">Jeeth Sanghavvi</span>
                                 </h2>
 
-                                <p className="text-lg md:text-xl text-white/60 font-medium mb-12">
+                                <p className="text-base sm:text-lg md:text-xl text-white/60 font-medium mb-8 md:mb-12">
                                     For over 18 years, Coach Jeeth Sanghavvi hasn&apos;t just trained bodies, she&apos;s rebuilt them, rewired mindsets, and pushed people past limits they didn&apos;t know existed. Her work is not about quick fixes or surface-level fitness. It is about complete transformation - physical, mental, and emotional.
                                 </p>
 
-                                <div className="w-16 h-[2px] bg-accent/30 mb-16" />
+                                <div className="w-12 md:w-16 h-[2px] bg-accent/30 mb-8 md:mb-16" />
 
-                                <div className="space-y-8 text-white/70 text-lg leading-relaxed font-light">
+                                <div className="space-y-6 md:space-y-8 text-white/70 text-base sm:text-[17px] md:text-lg leading-relaxed font-light">
                                     <p>
                                         At the core of Boxx Era stands a philosophy shaped by her, where transformation is intentional, disciplined, and deeply personal, rooted in a modern Gurukul ideology of mentorship, learning, and mastery. A coach&apos;s coach in the truest sense.
                                     </p>
@@ -161,9 +161,9 @@ export default function ArticlesPage() {
                                         Her credibility doesn&apos;t come from titles alone, though they exist. From being honoured with the Rashtriya Shiksha Ratan Award to preparing Priyanka Chopra for her role in <em>Mary Kom</em>, Coach Jeeth Sanghavvi has consistently operated at a level where results are non-negotiable.
                                     </p>
 
-                                    <div className="my-8 py-8 px-6 md:px-8 border-l-2 border-accent bg-white/[0.02] relative">
-                                        <p className="text-white/90 font-semibold mb-4">This is a high-performance environment engineered for real change:</p>
-                                        <ul className="space-y-3 text-white/80">
+                                    <div className="my-6 md:my-8 py-6 md:py-8 px-4 sm:px-6 md:px-8 border-l-2 border-accent bg-white/[0.02] relative">
+                                        <p className="text-white/90 font-semibold mb-3 md:mb-4 text-sm sm:text-base">This is a high-performance environment engineered for real change:</p>
+                                        <ul className="space-y-2.5 md:space-y-3 text-white/80 text-sm sm:text-base">
                                             <li>If you walk in, you show up fully.</li>
                                             <li>If you listen, you evolve.</li>
                                             <li>Train under Coach Jeeth Sanghavvi.</li>
@@ -171,17 +171,17 @@ export default function ArticlesPage() {
                                         </ul>
                                     </div>
 
-                                    <div className="pt-10">
+                                    <div className="pt-6 md:pt-10">
                                         <Button
                                             text="START YOUR TRANSFORMATION WITH COACH JEETH"
                                             href="/#contact"
-                                            className="w-full sm:w-auto px-12 py-7"
+                                            className="w-full sm:w-auto px-6 sm:px-10 md:px-12 py-4 sm:py-6 md:py-7"
                                         />
                                         <a
                                             href="https://www.instagram.com/jeethsanghavi?igsh=aHUyYTdrNDF0Y3Vp"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="mt-5 inline-flex items-center gap-2 text-accent hover:text-white transition-colors text-[11px] font-black uppercase tracking-[0.2em]"
+                                            className="mt-4 md:mt-5 inline-flex items-center gap-2 text-accent hover:text-white transition-colors text-[10px] sm:text-[11px] font-black uppercase tracking-[0.16em] sm:tracking-[0.2em]"
                                         >
                                             <Instagram size={16} />
                                             Follow Coach Jeeth
@@ -197,14 +197,14 @@ export default function ArticlesPage() {
                                 transition={{ duration: 0.8, delay: 0.2 }}
                                 className="lg:col-span-4"
                             >
-                                <div className="sticky top-40 space-y-12">
-                                    <div className="relative p-8 border-2 border-accent/30 bg-gradient-to-br from-accent/10 via-zinc-950/95 to-black backdrop-blur-md rounded-sm shadow-[0_0_35px_rgba(29,194,193,0.18)] overflow-hidden">
+                                <div className="sticky top-24 md:top-40 space-y-8 md:space-y-12">
+                                    <div className="relative p-5 sm:p-6 md:p-8 border-2 border-accent/30 bg-gradient-to-br from-accent/10 via-zinc-950/95 to-black backdrop-blur-md rounded-sm shadow-[0_0_35px_rgba(29,194,193,0.18)] overflow-hidden">
                                         <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-accent via-white/70 to-accent/40" />
                                         <div className="absolute -top-8 -right-8 w-28 h-28 bg-accent/15 rounded-full blur-2xl pointer-events-none" />
-                                        <h4 className="text-accent text-[10px] font-black uppercase tracking-[0.3em] mb-8 border-b border-accent/30 pb-4">
+                                        <h4 className="text-accent text-[9px] sm:text-[10px] font-black uppercase tracking-[0.22em] sm:tracking-[0.3em] mb-5 md:mb-8 border-b border-accent/30 pb-3 md:pb-4">
                                             Why This Philosophy?
                                         </h4>
-                                        <div className="space-y-5 text-white/80 text-sm leading-relaxed">
+                                        <div className="space-y-4 md:space-y-5 text-white/80 text-[13px] sm:text-sm leading-relaxed">
                                             <p className="text-white/90 font-medium">
                                                 This approach is deeply personal to her.
                                             </p>
@@ -224,7 +224,7 @@ export default function ArticlesPage() {
                                         </div>
                                     </div>
 
-                                    <div className="relative aspect-square w-full grayscale opacity-20 overflow-hidden rounded-sm group">
+                                    <div className="relative aspect-square w-full grayscale opacity-20 overflow-hidden rounded-sm group hidden lg:block">
                                         <Image
                                             src="/Boxx Era-01 (1).png"
                                             alt="Boxx Era Seal"
@@ -342,8 +342,8 @@ export default function ArticlesPage() {
             </section>
 
             {/* SECTION: COACH SHIVANI DAHIYA */}
-            <section className="py-24 md:py-32 bg-zinc-950/50 border-y border-white/5 relative overflow-hidden">
-                <div className="container mx-auto px-6 relative z-10">
+            <section className="py-16 md:py-24 lg:py-32 bg-zinc-950/50 border-y border-white/5 relative overflow-hidden">
+                <div className="container mx-auto px-4 md:px-6 relative z-10">
                     <div className="max-w-5xl mx-auto">
                         {/* Hero Image */}
                         <motion.div
@@ -351,7 +351,7 @@ export default function ArticlesPage() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 1 }}
-                            className="relative aspect-[16/10] md:aspect-[21/11] w-full overflow-hidden rounded-sm mb-16 border border-white/5 shadow-2xl"
+                            className="relative aspect-[16/11] sm:aspect-[16/10] md:aspect-[21/11] w-full overflow-hidden rounded-sm mb-10 md:mb-16 border border-white/5 shadow-2xl"
                         >
                             <Image
                                 src="/WhatsApp Image 2026-05-01 at 2.30.46 PM.jpeg"
@@ -360,14 +360,14 @@ export default function ArticlesPage() {
                                 className="object-cover object-[center_5%] transition-transform duration-[3s] hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
-                            <div className="absolute bottom-6 right-6 md:bottom-10 md:right-10">
-                                <span className="bg-accent text-black text-[9px] md:text-[10px] font-black uppercase tracking-[0.4em] px-4 py-2">
+                            <div className="absolute bottom-3 right-3 md:bottom-10 md:right-10">
+                                <span className="bg-accent text-black text-[8px] sm:text-[9px] md:text-[10px] font-black uppercase tracking-[0.22em] sm:tracking-[0.3em] md:tracking-[0.4em] px-2.5 sm:px-3 md:px-4 py-1.5 md:py-2">
                                     Meet Coach Shivani —
                                 </span>
                             </div>
                         </motion.div>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 lg:gap-20">
                             {/* Main Content */}
                             <motion.div
                                 initial={{ opacity: 0, x: -20 }}
@@ -376,28 +376,28 @@ export default function ArticlesPage() {
                                 transition={{ duration: 0.8 }}
                                 className="lg:col-span-8"
                             >
-                                <span className="text-accent text-[10px] md:text-xs font-black uppercase tracking-[0.5em] mb-6 block">
+                                <span className="text-accent text-[9px] md:text-xs font-black uppercase tracking-[0.32em] md:tracking-[0.5em] mb-4 md:mb-6 block">
                                     COACH SPOTLIGHT
                                 </span>
 
-                                <h2 className="text-4xl md:text-7xl font-anton uppercase leading-[0.9] tracking-tighter text-white mb-6">
+                                <h2 className="text-3xl sm:text-4xl md:text-7xl font-anton uppercase leading-[0.95] md:leading-[0.9] tracking-tighter text-white mb-4 md:mb-6">
                                     Meet Coach Shivani
                                 </h2>
 
-                                <p className="text-lg md:text-xl text-white/60 font-medium mb-12">
+                                <p className="text-base sm:text-lg md:text-xl text-white/60 font-medium mb-8 md:mb-12">
                                     Coach Shivani is a professional boxer who has competed at both national and international levels, bringing real competitive experience into her role at Boxx Era as a founding team member.
                                 </p>
 
-                                <div className="w-16 h-[2px] bg-accent/30 mb-16" />
+                                <div className="w-12 md:w-16 h-[2px] bg-accent/30 mb-8 md:mb-16" />
 
-                                <div className="space-y-8 text-white/70 text-lg leading-relaxed font-light">
+                                <div className="space-y-6 md:space-y-8 text-white/70 text-base sm:text-[17px] md:text-lg leading-relaxed font-light">
                                     <p>
                                         With a strong foundation in high-performance sport, Coach Shivani understands what structured, effective training demands. Her approach is rooted in technical accuracy, consistency, and building strength that translates beyond the studio.
                                     </p>
 
-                                    <div className="my-8 py-8 px-6 md:px-8 border-l-2 border-accent bg-white/[0.02] relative">
-                                        <p className="text-white/90 font-semibold mb-4">At Boxx Era, Coach Shivani works across:</p>
-                                        <ul className="space-y-3 text-white/80">
+                                    <div className="my-6 md:my-8 py-6 md:py-8 px-4 sm:px-6 md:px-8 border-l-2 border-accent bg-white/[0.02] relative">
+                                        <p className="text-white/90 font-semibold mb-3 md:mb-4 text-sm sm:text-base">At Boxx Era, Coach Shivani works across:</p>
+                                        <ul className="space-y-2.5 md:space-y-3 text-white/80 text-sm sm:text-base">
                                             <li>Boxing Training</li>
                                             <li>Strength and conditioning</li>
                                             <li>Sport-specific training</li>
@@ -408,11 +408,11 @@ export default function ArticlesPage() {
                                         Her sessions are focused, methodical, and tailored to individual capacity whether someone is just starting out or looking to train at a higher level. She emphasizes correct movement, progressive overload, and the discipline needed to sustain results over time.
                                     </p>
 
-                                    <div className="pt-10">
+                                    <div className="pt-6 md:pt-10">
                                         <Button
                                             text="START YOUR TRAINING WITH COACH SHIVANI"
                                             href="/#contact"
-                                            className="w-full sm:w-auto px-12 py-7"
+                                            className="w-full sm:w-auto px-6 sm:px-10 md:px-12 py-4 sm:py-6 md:py-7"
                                         />
                                     </div>
                                 </div>
