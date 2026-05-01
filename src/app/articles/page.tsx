@@ -106,28 +106,15 @@ export default function ArticlesPage() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 1 }}
-                            className="relative w-full mb-16"
+                            className="relative aspect-[16/7] md:aspect-[16/6] w-full overflow-hidden rounded-sm mb-16 border border-white/5 shadow-2xl"
                         >
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                                <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-white/5 shadow-2xl">
-                                    <Image
-                                        src="/Untitled design (1)-Photoroom.png"
-                                        alt="Coach Jeeth Sanghavvi portrait"
-                                        fill
-                                        className="object-cover object-center transition-transform duration-[3s] hover:scale-105"
-                                        sizes="(max-width: 768px) 100vw, 50vw"
-                                    />
-                                </div>
-                                <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-white/5 shadow-2xl">
-                                    <Image
-                                        src="/WhatsApp Image 2026-05-01 at 12.51.44 AM (1).jpeg"
-                                        alt="Coach Jeeth Sanghavvi with athletes at Boxx Era"
-                                        fill
-                                        className="object-cover object-center transition-transform duration-[3s] hover:scale-105"
-                                        sizes="(max-width: 768px) 100vw, 50vw"
-                                    />
-                                </div>
-                            </div>
+                            <Image
+                                src="/WhatsApp Image 2026-05-01 at 2.22.07 PM.jpeg"
+                                alt="Coach Jeeth Sanghavvi"
+                                fill
+                                className="object-cover object-[center_20%] transition-transform duration-[3s] hover:scale-105"
+                                sizes="(max-width: 768px) 100vw, 1024px"
+                            />
                             <div className="absolute bottom-4 left-4 md:bottom-6 md:left-6">
                                 <span className="bg-accent text-black text-[9px] md:text-[10px] font-black uppercase tracking-[0.4em] px-4 py-2">
                                     Meet Your Coach: Jeeth Sanghavvi
@@ -147,48 +134,42 @@ export default function ArticlesPage() {
                                     COACH SPOTLIGHT
                                 </span>
 
-                                <h2 className="text-4xl md:text-6xl font-anton uppercase leading-[0.9] tracking-tighter text-white mb-8">
+                                <h2 className="text-4xl md:text-7xl font-anton uppercase leading-[0.9] tracking-tighter text-white mb-6">
                                     Meet Coach <span className="text-accent">Jeeth Sanghavvi</span>
                                 </h2>
 
-                                <div className="w-16 h-[2px] bg-accent/30 mb-12" />
+                                <p className="text-lg md:text-xl text-white/60 font-medium mb-12">
+                                    For over 18 years, Coach Jeeth Sanghavvi hasn&apos;t just trained bodies, she&apos;s rebuilt them, rewired mindsets, and pushed people past limits they didn&apos;t know existed. Her work is not about quick fixes or surface-level fitness. It is about complete transformation - physical, mental, and emotional.
+                                </p>
+
+                                <div className="w-16 h-[2px] bg-accent/30 mb-16" />
 
                                 <div className="space-y-8 text-white/70 text-lg leading-relaxed font-light">
-                                    <p className="text-white/80 font-medium">
-                                        <span className="text-accent font-semibold">Life Coach</span>, <span className="text-accent font-semibold">Transformation Expert</span>, Celebrity Coach &amp; the Force behind Boxx Era
+                                    <p>
+                                        At the core of Boxx Era stands a philosophy shaped by her, where transformation is intentional, disciplined, and deeply personal, rooted in a modern Gurukul ideology of mentorship, learning, and mastery. A coach&apos;s coach in the truest sense.
                                     </p>
 
                                     <p>
-                                        At the core of Boxx Era stands a philosophy shaped by her - where transformation is <span className="text-white font-semibold">intentional, disciplined, and deeply personal</span>, rooted in a <span className="text-accent font-semibold italic">modern Gurukul ideology</span> of mentorship, learning, and mastery. A coach&apos;s coach in the truest sense.
+                                        Coach Jeeth built Boxx Era from the ground up, and her name has come to define transformation at the highest level.
                                     </p>
 
                                     <p>
-                                        Coach Jeeth built Boxx Era from the ground up by <span className="text-white font-semibold">Coach Jeeth Sanghavvi</span>, a name that has come to define <span className="text-accent font-semibold">transformation at the highest level</span>.
+                                        A former international and national athlete in lawn tennis and boxing, and an advanced-level mountaineer, Coach Jeeth Sanghavvi brings a rare kind of intensity to everything she builds - the kind that comes from lived discipline, not theory.
                                     </p>
 
                                     <p>
-                                        For over <span className="text-accent font-semibold">18 years</span>, Coach Jeeth Sanghavvi hasn&apos;t just trained bodies, she&apos;s rebuilt them, rewired mindsets, and pushed people past limits they didn&apos;t know existed. Her work is not about quick fixes or surface-level fitness. It&apos;s about <span className="text-white font-semibold border-b border-accent/40">complete, undeniable transformation</span> physical, mental, and emotional.
+                                        Her credibility doesn&apos;t come from titles alone, though they exist. From being honoured with the Rashtriya Shiksha Ratan Award to preparing Priyanka Chopra for her role in <em>Mary Kom</em>, Coach Jeeth Sanghavvi has consistently operated at a level where results are non-negotiable.
                                     </p>
 
-                                    <p>
-                                        A former international and national athlete in lawn tennis and boxing, and an advanced-level mountaineer, Coach Jeeth Sanghavvi brings a <span className="text-accent font-semibold">rare kind of intensity</span> to everything she builds. The kind that comes from lived discipline, not theoretical.
-                                    </p>
-
-                                    <p>
-                                        Her credibility doesn&apos;t come from titles alone but they exist in the countless people she has transformed. From being honoured with the <span className="text-accent font-semibold">Rashtriya Shiksha Ratan Award</span> to preparing <span className="text-white font-semibold">Priyanka Chopra</span> for her role in <em>Mary Kom</em>, Coach Jeeth Sanghavvi has consistently operated at a level where <span className="text-white font-semibold">results are non-negotiable</span>.
-                                    </p>
-
-                                    <p>
-                                        This is a <span className="text-accent font-semibold">high-performance environment</span> engineered by Coach Jeeth Sanghavvi for those who are looking for a real change.
-                                        <br />
-                                        <span className="text-white font-semibold">If you walk in, you show up fully.</span>
-                                        <br />
-                                        <span className="text-white font-semibold">If you listen, you evolve.</span>
-                                        <br />
-                                        <span className="text-accent font-semibold">Train under Coach Jeeth Sanghavvi.</span>
-                                        <br />
-                                        <span className="text-white font-semibold border-b border-accent/40">And become unrecognizable in the best way possible.</span>
-                                    </p>
+                                    <div className="my-8 py-8 px-6 md:px-8 border-l-2 border-accent bg-white/[0.02] relative">
+                                        <p className="text-white/90 font-semibold mb-4">This is a high-performance environment engineered for real change:</p>
+                                        <ul className="space-y-3 text-white/80">
+                                            <li>If you walk in, you show up fully.</li>
+                                            <li>If you listen, you evolve.</li>
+                                            <li>Train under Coach Jeeth Sanghavvi.</li>
+                                            <li>Become unrecognizable in the best way possible.</li>
+                                        </ul>
+                                    </div>
 
                                     <div className="pt-10">
                                         <Button
@@ -217,11 +198,13 @@ export default function ArticlesPage() {
                                 className="lg:col-span-4"
                             >
                                 <div className="sticky top-40 space-y-12">
-                                    <div className="p-8 border border-white/5 bg-zinc-950/50 backdrop-blur-sm rounded-sm">
-                                        <h4 className="text-accent text-[10px] font-black uppercase tracking-[0.3em] mb-8 border-b border-accent/20 pb-4">
+                                    <div className="relative p-8 border-2 border-accent/30 bg-gradient-to-br from-accent/10 via-zinc-950/95 to-black backdrop-blur-md rounded-sm shadow-[0_0_35px_rgba(29,194,193,0.18)] overflow-hidden">
+                                        <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-accent via-white/70 to-accent/40" />
+                                        <div className="absolute -top-8 -right-8 w-28 h-28 bg-accent/15 rounded-full blur-2xl pointer-events-none" />
+                                        <h4 className="text-accent text-[10px] font-black uppercase tracking-[0.3em] mb-8 border-b border-accent/30 pb-4">
                                             Why This Philosophy?
                                         </h4>
-                                        <div className="space-y-5 text-white/70 text-sm leading-relaxed">
+                                        <div className="space-y-5 text-white/80 text-sm leading-relaxed">
                                             <p className="text-white/90 font-medium">
                                                 This approach is deeply personal to her.
                                             </p>
@@ -256,6 +239,108 @@ export default function ArticlesPage() {
                 </div>
             </section>
 
+            {/* SECTION: COACHING PHILOSOPHY VIDEO SEPARATOR */}
+            <section className="py-24 md:py-32 bg-black border-y border-white/5 relative overflow-hidden">
+                <div className="absolute inset-0 pointer-events-none">
+                    <div className="absolute -top-20 -left-20 w-72 h-72 bg-accent/10 rounded-full blur-3xl" />
+                    <div className="absolute -bottom-20 -right-20 w-72 h-72 bg-accent/10 rounded-full blur-3xl" />
+                </div>
+
+                <div className="container mx-auto px-6 relative z-10">
+                    <div className="max-w-6xl mx-auto">
+                        {/* Premium Header Strip */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.8 }}
+                            className="mb-10 md:mb-14 grid grid-cols-1 lg:grid-cols-12 gap-6 items-end"
+                        >
+                            <div className="lg:col-span-8">
+                                <span className="text-accent text-[10px] md:text-xs font-black uppercase tracking-[0.5em] mb-4 block">
+                                    Built By Athletes
+                                </span>
+                                <h2 className="text-4xl md:text-6xl font-anton uppercase leading-[0.95] tracking-tighter text-white">
+                                    The Story Behind <span className="text-accent">Boxx Era</span>
+                                </h2>
+                            </div>
+                            <div className="lg:col-span-4 border-l-2 border-accent/50 pl-4 md:pl-6">
+                                <p className="text-white/80 text-sm md:text-base leading-relaxed">
+                                    This is not a commercial gym model. This is an athlete-led transformation ecosystem built through lived struggle and real coaching.
+                                </p>
+                            </div>
+                        </motion.div>
+
+                        {/* Asymmetric Premium Layout */}
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-10 items-start">
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.8 }}
+                                className="lg:col-span-8"
+                            >
+                                <div className="relative aspect-video w-full overflow-hidden rounded-sm border border-white/10 bg-zinc-950 shadow-[0_0_40px_rgba(29,194,193,0.18)]">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/LBFpcliTYH0"
+                                        title="Boxx Era coaching philosophy video"
+                                        className="absolute inset-0 h-full w-full"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerPolicy="strict-origin-when-cross-origin"
+                                        allowFullScreen
+                                    />
+                                </div>
+                            </motion.div>
+
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.8, delay: 0.1 }}
+                                className="lg:col-span-4 space-y-4"
+                            >
+                                <div className="p-6 border border-accent/30 bg-zinc-950/80 backdrop-blur-sm rounded-sm">
+                                    <p className="text-white/85 text-sm md:text-base leading-relaxed">
+                                        Our coaches are among the toughest women in India, as featured in iDiva. This is not just any fancy fitness studio or commercial gym, it&apos;s a story of athletes who were incredibly talented but couldn&apos;t reach the top because of wasted time with the wrong coaches and lack of proper guidance.
+                                    </p>
+                                </div>
+                                <div className="p-6 border border-white/10 bg-zinc-950/60 rounded-sm">
+                                    <p className="text-white/75 text-sm md:text-base leading-relaxed">
+                                        That&apos;s where Coach Jeeth started this Boxx era, so no athlete has to go through the same struggle of searching for the right mentor and direction. For her, this isn&apos;t just work; it&apos;s deeply personal. Her own journey and emotions are behind everything she does.
+                                    </p>
+                                </div>
+                            </motion.div>
+                        </div>
+
+                        {/* Bottom Story Cards */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 md:mt-10">
+                            <motion.div
+                                initial={{ opacity: 0, y: 16 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.7 }}
+                                className="p-6 md:p-8 border-l-2 border-accent bg-white/[0.02]"
+                            >
+                                <p className="text-white/90 font-medium text-base md:text-lg leading-relaxed">
+                                    That&apos;s why, when it comes to transformation, she becomes the toughest, yet the most supportive and understanding coach - adapting to every athlete and giving them exactly what they need to achieve real, serious results.
+                                </p>
+                            </motion.div>
+                            <motion.div
+                                initial={{ opacity: 0, y: 16 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.7, delay: 0.08 }}
+                                className="p-6 md:p-8 border border-white/10 bg-zinc-950/70 rounded-sm"
+                            >
+                                <p className="text-white/75 text-base md:text-lg leading-relaxed">
+                                    She also believes in maintaining a certain level and commitment. That&apos;s why she carefully selects her clients (athletes). It&apos;s not about ego or attitude, it&apos;s about not wasting her time or the athlete&apos;s time on someone who isn&apos;t truly serious about changing and evolving in life.
+                                </p>
+                            </motion.div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* SECTION: COACH SHIVANI DAHIYA */}
             <section className="py-24 md:py-32 bg-zinc-950/50 border-y border-white/5 relative overflow-hidden">
                 <div className="container mx-auto px-6 relative z-10">
@@ -269,7 +354,7 @@ export default function ArticlesPage() {
                             className="relative aspect-[16/10] md:aspect-[21/11] w-full overflow-hidden rounded-sm mb-16 border border-white/5 shadow-2xl"
                         >
                             <Image
-                                src="/WhatsApp Image 2026-03-23 at 6.04.12 PM (1).jpeg"
+                                src="/WhatsApp Image 2026-05-01 at 2.30.46 PM.jpeg"
                                 alt="Coach Shivani Dahiya"
                                 fill
                                 className="object-cover object-[center_5%] transition-transform duration-[3s] hover:scale-105"
@@ -277,7 +362,7 @@ export default function ArticlesPage() {
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
                             <div className="absolute bottom-6 right-6 md:bottom-10 md:right-10">
                                 <span className="bg-accent text-black text-[9px] md:text-[10px] font-black uppercase tracking-[0.4em] px-4 py-2">
-                                    Meet Coach Shivani Dahiya —
+                                    Meet Coach Shivani —
                                 </span>
                             </div>
                         </motion.div>
